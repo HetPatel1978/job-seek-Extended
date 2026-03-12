@@ -1,0 +1,25 @@
+# Core scraping & HTTP
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+httpx>=0.25.0
+playwright>=1.40.0         # headless browser for Workday / JS-heavy pages
+
+# Data handling
+pandas>=2.1.0
+openpyxl>=3.1.2            # XLSX export
+python-dateutil>=2.8.2
+
+# CLI & config
+click>=8.1.0
+python-dotenv>=1.0.0
+
+# Logging
+colorlog>=6.8.0
+
+# Optional: Ollama LLM filtering
+# ollama>=0.1.0             # uncomment if using --use-ollama flag
+
+# Dev / test
+pytest>=7.4.0
+pytest-cov>=4.1.0

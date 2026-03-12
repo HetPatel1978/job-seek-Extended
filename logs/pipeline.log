@@ -1,0 +1,293 @@
+2026-03-12 15:23:10 | INFO     | __main__ | ============================================================
+2026-03-12 15:23:10 | INFO     | __main__ | job-seek pipeline starting
+2026-03-12 15:23:10 | INFO     | __main__ |   companies file : companies.json
+2026-03-12 15:23:10 | INFO     | __main__ |   output dir     : data
+2026-03-12 15:23:10 | INFO     | __main__ |   threshold      : 70
+2026-03-12 15:23:10 | INFO     | __main__ |   filter mode    : Keyword rules
+2026-03-12 15:23:10 | INFO     | __main__ | ============================================================
+2026-03-12 15:23:10 | INFO     | __main__ | Companies to scrape: 7
+2026-03-12 15:23:10 | INFO     | __main__ | [1/7] Scraping: Stripe
+2026-03-12 15:23:10 | INFO     | job_seek.adapters.scraper | Scraping Stripe via Lever …
+2026-03-12 15:23:12 | ERROR    | job_seek.adapters.scraper | Lever API error for Stripe: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/stripe?mode=json&limit=250
+2026-03-12 15:23:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:12 | INFO     | __main__ | [2/7] Scraping: Figma
+2026-03-12 15:23:12 | INFO     | job_seek.adapters.scraper | Scraping Figma via Lever …
+2026-03-12 15:23:13 | ERROR    | job_seek.adapters.scraper | Lever API error for Figma: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/figma?mode=json&limit=250
+2026-03-12 15:23:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:13 | INFO     | __main__ | [3/7] Scraping: Linear
+2026-03-12 15:23:13 | INFO     | job_seek.adapters.scraper | Scraping Linear via Ashby …
+2026-03-12 15:23:13 | ERROR    | job_seek.adapters.scraper | Ashby API error for Linear: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:23:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:13 | INFO     | __main__ | [4/7] Scraping: Vercel
+2026-03-12 15:23:13 | INFO     | job_seek.adapters.scraper | Scraping Vercel via Ashby …
+2026-03-12 15:23:13 | ERROR    | job_seek.adapters.scraper | Ashby API error for Vercel: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:23:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:13 | INFO     | __main__ | [5/7] Scraping: Notion
+2026-03-12 15:23:13 | INFO     | job_seek.adapters.scraper | Scraping Notion via Greenhouse …
+2026-03-12 15:23:13 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Notion: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/notion/jobs?content=true
+2026-03-12 15:23:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:13 | INFO     | __main__ | [6/7] Scraping: Zapier
+2026-03-12 15:23:13 | INFO     | job_seek.adapters.scraper | Scraping Zapier via Greenhouse …
+2026-03-12 15:23:13 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Zapier: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/zapier/jobs?content=true
+2026-03-12 15:23:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:13 | INFO     | __main__ | [7/7] Scraping: Atlassian
+2026-03-12 15:23:13 | INFO     | job_seek.adapters.scraper | Scraping Atlassian via Workday …
+2026-03-12 15:23:13 | ERROR    | job_seek.adapters.scraper | Workday API error for Atlassian: HTTPSConnectionPool(host='jobs.workday.com', port=443): Max retries exceeded with url: /wday/cxs/en-US/atlassian/jobs (Caused by NameResolutionError("HTTPSConnection(host='jobs.workday.com', port=443): Failed to resolve 'jobs.workday.com' ([Errno 11001] getaddrinfo failed)"))
+2026-03-12 15:23:13 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for Atlassian
+2026-03-12 15:23:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:13 | INFO     | __main__ | Total raw jobs scraped: 0
+2026-03-12 15:23:13 | WARNING  | __main__ | No jobs scraped — check network connectivity and company URLs.
+2026-03-12 15:23:23 | INFO     | __main__ | ============================================================
+2026-03-12 15:23:23 | INFO     | __main__ | job-seek pipeline starting
+2026-03-12 15:23:23 | INFO     | __main__ |   companies file : companies.json
+2026-03-12 15:23:23 | INFO     | __main__ |   output dir     : data
+2026-03-12 15:23:23 | INFO     | __main__ |   threshold      : 70
+2026-03-12 15:23:23 | INFO     | __main__ |   filter mode    : Ollama LLM
+2026-03-12 15:23:23 | INFO     | __main__ | ============================================================
+2026-03-12 15:23:23 | INFO     | __main__ | Companies to scrape: 7
+2026-03-12 15:23:23 | INFO     | __main__ | [1/7] Scraping: Stripe
+2026-03-12 15:23:23 | INFO     | job_seek.adapters.scraper | Scraping Stripe via Lever …
+2026-03-12 15:23:24 | ERROR    | job_seek.adapters.scraper | Lever API error for Stripe: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/stripe?mode=json&limit=250
+2026-03-12 15:23:24 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:24 | INFO     | __main__ | [2/7] Scraping: Figma
+2026-03-12 15:23:24 | INFO     | job_seek.adapters.scraper | Scraping Figma via Lever …
+2026-03-12 15:23:24 | ERROR    | job_seek.adapters.scraper | Lever API error for Figma: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/figma?mode=json&limit=250
+2026-03-12 15:23:24 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:24 | INFO     | __main__ | [3/7] Scraping: Linear
+2026-03-12 15:23:24 | INFO     | job_seek.adapters.scraper | Scraping Linear via Ashby …
+2026-03-12 15:23:24 | ERROR    | job_seek.adapters.scraper | Ashby API error for Linear: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:23:24 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:24 | INFO     | __main__ | [4/7] Scraping: Vercel
+2026-03-12 15:23:24 | INFO     | job_seek.adapters.scraper | Scraping Vercel via Ashby …
+2026-03-12 15:23:24 | ERROR    | job_seek.adapters.scraper | Ashby API error for Vercel: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:23:24 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:24 | INFO     | __main__ | [5/7] Scraping: Notion
+2026-03-12 15:23:24 | INFO     | job_seek.adapters.scraper | Scraping Notion via Greenhouse …
+2026-03-12 15:23:25 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Notion: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/notion/jobs?content=true
+2026-03-12 15:23:25 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:25 | INFO     | __main__ | [6/7] Scraping: Zapier
+2026-03-12 15:23:25 | INFO     | job_seek.adapters.scraper | Scraping Zapier via Greenhouse …
+2026-03-12 15:23:25 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Zapier: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/zapier/jobs?content=true
+2026-03-12 15:23:25 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:25 | INFO     | __main__ | [7/7] Scraping: Atlassian
+2026-03-12 15:23:25 | INFO     | job_seek.adapters.scraper | Scraping Atlassian via Workday …
+2026-03-12 15:23:25 | ERROR    | job_seek.adapters.scraper | Workday API error for Atlassian: HTTPSConnectionPool(host='jobs.workday.com', port=443): Max retries exceeded with url: /wday/cxs/en-US/atlassian/jobs (Caused by NameResolutionError("HTTPSConnection(host='jobs.workday.com', port=443): Failed to resolve 'jobs.workday.com' ([Errno 11001] getaddrinfo failed)"))
+2026-03-12 15:23:25 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for Atlassian
+2026-03-12 15:23:25 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:25 | INFO     | __main__ | Total raw jobs scraped: 0
+2026-03-12 15:23:25 | WARNING  | __main__ | No jobs scraped — check network connectivity and company URLs.
+2026-03-12 15:23:35 | INFO     | __main__ | ============================================================
+2026-03-12 15:23:35 | INFO     | __main__ | job-seek pipeline starting
+2026-03-12 15:23:35 | INFO     | __main__ |   companies file : companies.json
+2026-03-12 15:23:35 | INFO     | __main__ |   output dir     : data
+2026-03-12 15:23:35 | INFO     | __main__ |   threshold      : 70
+2026-03-12 15:23:35 | INFO     | __main__ |   filter mode    : Keyword rules
+2026-03-12 15:23:35 | INFO     | __main__ | ============================================================
+2026-03-12 15:23:35 | INFO     | __main__ | Filtered to 2 companies: Stripe,Figma
+2026-03-12 15:23:35 | INFO     | __main__ | Companies to scrape: 2
+2026-03-12 15:23:35 | INFO     | __main__ | [1/2] Scraping: Stripe
+2026-03-12 15:23:35 | INFO     | job_seek.adapters.scraper | Scraping Stripe via Lever …
+2026-03-12 15:23:36 | ERROR    | job_seek.adapters.scraper | Lever API error for Stripe: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/stripe?mode=json&limit=250
+2026-03-12 15:23:36 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:36 | INFO     | __main__ | [2/2] Scraping: Figma
+2026-03-12 15:23:36 | INFO     | job_seek.adapters.scraper | Scraping Figma via Lever …
+2026-03-12 15:23:36 | ERROR    | job_seek.adapters.scraper | Lever API error for Figma: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/figma?mode=json&limit=250
+2026-03-12 15:23:36 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:36 | INFO     | __main__ | Total raw jobs scraped: 0
+2026-03-12 15:23:36 | WARNING  | __main__ | No jobs scraped — check network connectivity and company URLs.
+2026-03-12 15:23:45 | INFO     | __main__ | ============================================================
+2026-03-12 15:23:45 | INFO     | __main__ | job-seek pipeline starting
+2026-03-12 15:23:45 | INFO     | __main__ |   companies file : companies.json
+2026-03-12 15:23:45 | INFO     | __main__ |   output dir     : results/
+2026-03-12 15:23:45 | INFO     | __main__ |   threshold      : 60
+2026-03-12 15:23:45 | INFO     | __main__ |   filter mode    : Keyword rules
+2026-03-12 15:23:45 | INFO     | __main__ | ============================================================
+2026-03-12 15:23:45 | INFO     | __main__ | Companies to scrape: 7
+2026-03-12 15:23:45 | INFO     | __main__ | [1/7] Scraping: Stripe
+2026-03-12 15:23:45 | INFO     | job_seek.adapters.scraper | Scraping Stripe via Lever …
+2026-03-12 15:23:45 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): api.lever.co:443
+2026-03-12 15:23:46 | DEBUG    | urllib3.connectionpool | https://api.lever.co:443 "GET /v0/postings/stripe?mode=json&limit=250 HTTP/1.1" 404 41
+2026-03-12 15:23:46 | ERROR    | job_seek.adapters.scraper | Lever API error for Stripe: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/stripe?mode=json&limit=250
+2026-03-12 15:23:46 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:46 | INFO     | __main__ | [2/7] Scraping: Figma
+2026-03-12 15:23:46 | INFO     | job_seek.adapters.scraper | Scraping Figma via Lever …
+2026-03-12 15:23:46 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): api.lever.co:443
+2026-03-12 15:23:46 | DEBUG    | urllib3.connectionpool | https://api.lever.co:443 "GET /v0/postings/figma?mode=json&limit=250 HTTP/1.1" 404 41
+2026-03-12 15:23:46 | ERROR    | job_seek.adapters.scraper | Lever API error for Figma: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/figma?mode=json&limit=250
+2026-03-12 15:23:46 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:46 | INFO     | __main__ | [3/7] Scraping: Linear
+2026-03-12 15:23:46 | INFO     | job_seek.adapters.scraper | Scraping Linear via Ashby …
+2026-03-12 15:23:46 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): api.ashbyhq.com:443
+2026-03-12 15:23:47 | DEBUG    | urllib3.connectionpool | https://api.ashbyhq.com:443 "POST /posting-api/job-board HTTP/1.1" 401 12
+2026-03-12 15:23:47 | ERROR    | job_seek.adapters.scraper | Ashby API error for Linear: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:23:47 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:47 | INFO     | __main__ | [4/7] Scraping: Vercel
+2026-03-12 15:23:47 | INFO     | job_seek.adapters.scraper | Scraping Vercel via Ashby …
+2026-03-12 15:23:47 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): api.ashbyhq.com:443
+2026-03-12 15:23:47 | DEBUG    | urllib3.connectionpool | https://api.ashbyhq.com:443 "POST /posting-api/job-board HTTP/1.1" 401 12
+2026-03-12 15:23:47 | ERROR    | job_seek.adapters.scraper | Ashby API error for Vercel: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:23:47 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:47 | INFO     | __main__ | [5/7] Scraping: Notion
+2026-03-12 15:23:47 | INFO     | job_seek.adapters.scraper | Scraping Notion via Greenhouse …
+2026-03-12 15:23:47 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): boards-api.greenhouse.io:443
+2026-03-12 15:23:47 | DEBUG    | urllib3.connectionpool | https://boards-api.greenhouse.io:443 "GET /v1/boards/notion/jobs?content=true HTTP/1.1" 404 38
+2026-03-12 15:23:47 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Notion: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/notion/jobs?content=true
+2026-03-12 15:23:47 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:47 | INFO     | __main__ | [6/7] Scraping: Zapier
+2026-03-12 15:23:47 | INFO     | job_seek.adapters.scraper | Scraping Zapier via Greenhouse …
+2026-03-12 15:23:47 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): boards-api.greenhouse.io:443
+2026-03-12 15:23:47 | DEBUG    | urllib3.connectionpool | https://boards-api.greenhouse.io:443 "GET /v1/boards/zapier/jobs?content=true HTTP/1.1" 404 38
+2026-03-12 15:23:47 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Zapier: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/zapier/jobs?content=true
+2026-03-12 15:23:47 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:47 | INFO     | __main__ | [7/7] Scraping: Atlassian
+2026-03-12 15:23:47 | INFO     | job_seek.adapters.scraper | Scraping Atlassian via Workday …
+2026-03-12 15:23:47 | DEBUG    | urllib3.connectionpool | Starting new HTTPS connection (1): jobs.workday.com:443
+2026-03-12 15:23:47 | ERROR    | job_seek.adapters.scraper | Workday API error for Atlassian: HTTPSConnectionPool(host='jobs.workday.com', port=443): Max retries exceeded with url: /wday/cxs/en-US/atlassian/jobs (Caused by NameResolutionError("HTTPSConnection(host='jobs.workday.com', port=443): Failed to resolve 'jobs.workday.com' ([Errno 11001] getaddrinfo failed)"))
+2026-03-12 15:23:47 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for Atlassian
+2026-03-12 15:23:47 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:23:47 | INFO     | __main__ | Total raw jobs scraped: 0
+2026-03-12 15:23:47 | WARNING  | __main__ | No jobs scraped — check network connectivity and company URLs.
+2026-03-12 15:23:56 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_creates_file0\output\test.csv  (2 rows)
+2026-03-12 15:23:56 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_header_matches_output_col0\output\test.csv  (2 rows)
+2026-03-12 15:23:56 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_row_count_correct0\output\test.csv  (2 rows)
+2026-03-12 15:23:56 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_empty_records_writes_head0\output\empty.csv  (0 rows)
+2026-03-12 15:23:56 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_values_written_correctly0\output\test.csv  (2 rows)
+2026-03-12 15:23:56 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_creates_parent_directorie0\nested\deep\test.csv  (2 rows)
+2026-03-12 15:23:56 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_missing_fields_default_to0\output\minimal.csv  (1 rows)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_creates_file1\output\test.xlsx  (2 rows + summary sheet)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_file_is_valid_xlsx0\output\test.xlsx  (2 rows + summary sheet)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_header_row_in_xlsx0\output\test.xlsx  (2 rows + summary sheet)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_data_row_count0\output\test.xlsx  (2 rows + summary sheet)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_summary_sheet_exists0\output\test.xlsx  (2 rows + summary sheet)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_creates_all_three_files0\output\raw_jobs.csv  (2 rows)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_creates_all_three_files0\output\filtered_cs_jobs.csv  (1 rows)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_creates_all_three_files0\output\filtered_cs_jobs.xlsx  (1 rows + summary sheet)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | Export summary — raw: 2 rows | filtered: 1 rows | output dir: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_creates_all_three_files0\output
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_raw_csv_has_all_records0\output\raw_jobs.csv  (2 rows)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_raw_csv_has_all_records0\output\filtered_cs_jobs.csv  (1 rows)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_raw_csv_has_all_records0\output\filtered_cs_jobs.xlsx  (1 rows + summary sheet)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | Export summary — raw: 2 rows | filtered: 1 rows | output dir: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_raw_csv_has_all_records0\output
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_filtered_csv_has_only_kep0\output\raw_jobs.csv  (2 rows)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_filtered_csv_has_only_kep0\output\filtered_cs_jobs.csv  (1 rows)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_filtered_csv_has_only_kep0\output\filtered_cs_jobs.xlsx  (1 rows + summary sheet)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | Export summary — raw: 2 rows | filtered: 1 rows | output dir: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_filtered_csv_has_only_kep0\output
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_returns_correct_path_keys0\output\raw_jobs.csv  (2 rows)
+2026-03-12 15:23:58 | INFO     | job_seek.exporters.csv_xlsx | CSV written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_returns_correct_path_keys0\output\filtered_cs_jobs.csv  (1 rows)
+2026-03-12 15:23:59 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_returns_correct_path_keys0\output\filtered_cs_jobs.xlsx  (1 rows + summary sheet)
+2026-03-12 15:23:59 | INFO     | job_seek.exporters.csv_xlsx | Export summary — raw: 2 rows | filtered: 1 rows | output dir: C:\Users\hetp2\AppData\Local\Temp\pytest-of-hetp2\pytest-0\test_returns_correct_path_keys0\output
+2026-03-12 15:23:59 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 4 kept / 3 rejected (threshold=70)
+2026-03-12 15:23:59 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 4 kept / 3 rejected (threshold=70)
+2026-03-12 15:23:59 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 4 kept / 3 rejected (threshold=70)
+2026-03-12 15:23:59 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 4 kept / 3 rejected (threshold=70)
+2026-03-12 15:23:59 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 0 kept / 7 rejected (threshold=90)
+2026-03-12 15:23:59 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 4 kept / 3 rejected (threshold=30)
+2026-03-12 15:23:59 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 4 kept / 3 rejected (threshold=70)
+2026-03-12 15:23:59 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 4 kept / 3 rejected (threshold=70)
+2026-03-12 15:23:59 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 0 kept / 0 rejected (threshold=70)
+2026-03-12 15:29:31 | INFO     | __main__ | ============================================================
+2026-03-12 15:29:31 | INFO     | __main__ | job-seek pipeline starting
+2026-03-12 15:29:31 | INFO     | __main__ |   companies file : companies.json
+2026-03-12 15:29:31 | INFO     | __main__ |   output dir     : data
+2026-03-12 15:29:31 | INFO     | __main__ |   threshold      : 70
+2026-03-12 15:29:31 | INFO     | __main__ |   filter mode    : Keyword rules
+2026-03-12 15:29:31 | INFO     | __main__ | ============================================================
+2026-03-12 15:29:31 | INFO     | __main__ | Companies to scrape: 14
+2026-03-12 15:29:31 | INFO     | __main__ | [1/14] Scraping: Netflix
+2026-03-12 15:29:31 | INFO     | job_seek.adapters.scraper | Scraping Netflix via Lever …
+2026-03-12 15:29:46 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Netflix
+2026-03-12 15:29:46 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:46 | INFO     | __main__ | [2/14] Scraping: Reddit
+2026-03-12 15:29:46 | INFO     | job_seek.adapters.scraper | Scraping Reddit via Lever …
+2026-03-12 15:29:47 | ERROR    | job_seek.adapters.scraper | Lever API error for Reddit: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/reddit?mode=json&limit=250&offset=0
+2026-03-12 15:29:47 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Reddit
+2026-03-12 15:29:47 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:47 | INFO     | __main__ | [3/14] Scraping: Dropbox
+2026-03-12 15:29:47 | INFO     | job_seek.adapters.scraper | Scraping Dropbox via Lever …
+2026-03-12 15:29:47 | ERROR    | job_seek.adapters.scraper | Lever API error for Dropbox: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/dropbox?mode=json&limit=250&offset=0
+2026-03-12 15:29:47 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Dropbox
+2026-03-12 15:29:47 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:47 | INFO     | __main__ | [4/14] Scraping: Scale AI
+2026-03-12 15:29:47 | INFO     | job_seek.adapters.scraper | Scraping Scale AI via Lever …
+2026-03-12 15:29:49 | ERROR    | job_seek.adapters.scraper | Lever API error for Scale AI: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/scaleai?mode=json&limit=250&offset=0
+2026-03-12 15:29:49 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Scale AI
+2026-03-12 15:29:49 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:49 | INFO     | __main__ | [5/14] Scraping: Figma
+2026-03-12 15:29:49 | INFO     | job_seek.adapters.scraper | Scraping Figma via Greenhouse …
+2026-03-12 15:29:49 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 168 jobs for Figma
+2026-03-12 15:29:49 | INFO     | __main__ |   → 168 raw jobs fetched
+2026-03-12 15:29:49 | INFO     | __main__ | [6/14] Scraping: Stripe
+2026-03-12 15:29:49 | INFO     | job_seek.adapters.scraper | Scraping Stripe via Greenhouse …
+2026-03-12 15:29:49 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 525 jobs for Stripe
+2026-03-12 15:29:49 | INFO     | __main__ |   → 525 raw jobs fetched
+2026-03-12 15:29:49 | INFO     | __main__ | [7/14] Scraping: Airbnb
+2026-03-12 15:29:49 | INFO     | job_seek.adapters.scraper | Scraping Airbnb via Greenhouse …
+2026-03-12 15:29:50 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 248 jobs for Airbnb
+2026-03-12 15:29:50 | INFO     | __main__ |   → 248 raw jobs fetched
+2026-03-12 15:29:50 | INFO     | __main__ | [8/14] Scraping: Discord
+2026-03-12 15:29:50 | INFO     | job_seek.adapters.scraper | Scraping Discord via Greenhouse …
+2026-03-12 15:29:50 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 84 jobs for Discord
+2026-03-12 15:29:50 | INFO     | __main__ |   → 84 raw jobs fetched
+2026-03-12 15:29:50 | INFO     | __main__ | [9/14] Scraping: Linear
+2026-03-12 15:29:50 | INFO     | job_seek.adapters.scraper | Scraping Linear via Ashby …
+2026-03-12 15:29:50 | ERROR    | job_seek.adapters.scraper | Ashby API error for Linear: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:29:50 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:50 | INFO     | __main__ | [10/14] Scraping: Vercel
+2026-03-12 15:29:50 | INFO     | job_seek.adapters.scraper | Scraping Vercel via Ashby …
+2026-03-12 15:29:50 | ERROR    | job_seek.adapters.scraper | Ashby API error for Vercel: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:29:50 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:50 | INFO     | __main__ | [11/14] Scraping: Loom
+2026-03-12 15:29:50 | INFO     | job_seek.adapters.scraper | Scraping Loom via Ashby …
+2026-03-12 15:29:50 | ERROR    | job_seek.adapters.scraper | Ashby API error for Loom: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:29:50 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:50 | INFO     | __main__ | [12/14] Scraping: Retool
+2026-03-12 15:29:50 | INFO     | job_seek.adapters.scraper | Scraping Retool via Ashby …
+2026-03-12 15:29:50 | ERROR    | job_seek.adapters.scraper | Ashby API error for Retool: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 15:29:50 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:50 | INFO     | __main__ | [13/14] Scraping: Atlassian
+2026-03-12 15:29:50 | INFO     | job_seek.adapters.scraper | Scraping Atlassian via Workday …
+2026-03-12 15:29:51 | ERROR    | job_seek.adapters.scraper | Workday API error for Atlassian (page 0): 422 Client Error: Unprocessable Entity for url: https://atlassian.wd5.myworkdayjobs.com/wday/cxs/en-US/Atlassian/jobs
+2026-03-12 15:29:51 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for Atlassian
+2026-03-12 15:29:51 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:51 | INFO     | __main__ | [14/14] Scraping: Workday
+2026-03-12 15:29:51 | INFO     | job_seek.adapters.scraper | Scraping Workday via Workday …
+2026-03-12 15:29:51 | ERROR    | job_seek.adapters.scraper | Workday API error for Workday (page 0): 422 Client Error: Unprocessable Entity for url: https://workday.wd5.myworkdayjobs.com/wday/cxs/en-US/Workday/jobs
+2026-03-12 15:29:51 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for Workday
+2026-03-12 15:29:51 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 15:29:51 | INFO     | __main__ | Total raw jobs scraped: 1025
+2026-03-12 15:29:51 | INFO     | __main__ | Normalising records …
+2026-03-12 15:29:51 | INFO     | __main__ | Normalisation complete: 1025 records
+2026-03-12 15:29:51 | INFO     | __main__ | Deduplicating …
+2026-03-12 15:29:51 | INFO     | job_seek.utils.deduplication | Deduplication: no duplicates found (1025 records)
+2026-03-12 15:29:51 | INFO     | job_seek.exporters.csv_xlsx | CSV written: data\raw_jobs.csv  (1025 rows)
+2026-03-12 15:29:51 | INFO     | __main__ | Filtering with keyword rules …
+2026-03-12 15:29:51 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 210 kept / 815 rejected (threshold=70)
+2026-03-12 15:29:51 | INFO     | job_seek.exporters.csv_xlsx | CSV written: data\raw_jobs.csv  (1025 rows)
+2026-03-12 15:29:51 | INFO     | job_seek.exporters.csv_xlsx | CSV written: data\filtered_cs_jobs.csv  (210 rows)
+2026-03-12 15:29:52 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: data\filtered_cs_jobs.xlsx  (210 rows + summary sheet)
+2026-03-12 15:29:52 | INFO     | job_seek.exporters.csv_xlsx | Export summary — raw: 1025 rows | filtered: 210 rows | output dir: C:\Users\hetp2\Desktop\projects\job-seek\job-seek\data
+2026-03-12 15:29:52 | INFO     | __main__ | 
+2026-03-12 15:29:52 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-12 15:29:52 | INFO     | __main__ | PIPELINE SUMMARY
+2026-03-12 15:29:52 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-12 15:29:52 | INFO     | __main__ |   Total unique jobs scraped : 1025
+2026-03-12 15:29:52 | INFO     | __main__ |   Jobs kept (CS/IT roles)   : 210
+2026-03-12 15:29:52 | INFO     | __main__ |   Jobs rejected             : 815
+2026-03-12 15:29:52 | INFO     | __main__ |   Elapsed time              : 20.8 s
+2026-03-12 15:29:52 | INFO     | __main__ | 
+2026-03-12 15:29:52 | INFO     | __main__ |   Top categories:
+2026-03-12 15:29:52 | INFO     | __main__ |     Software Engineering                110
+2026-03-12 15:29:52 | INFO     | __main__ |     Data Science / ML                   30
+2026-03-12 15:29:52 | INFO     | __main__ |     Backend Engineering                 19
+2026-03-12 15:29:52 | INFO     | __main__ |     Full Stack Development              17
+2026-03-12 15:29:52 | INFO     | __main__ |     Database / BI                       9
+2026-03-12 15:29:52 | INFO     | __main__ |     Frontend Engineering                7
+2026-03-12 15:29:52 | INFO     | __main__ |     Data Engineering                    6
+2026-03-12 15:29:52 | INFO     | __main__ |     Cybersecurity                       6
+2026-03-12 15:29:52 | INFO     | __main__ |     QA / Test Automation                3
+2026-03-12 15:29:52 | INFO     | __main__ |     IT Support / Admin                  1
+2026-03-12 15:29:52 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-12 15:29:52 | INFO     | __main__ | Output files:
+2026-03-12 15:29:52 | INFO     | __main__ |   data/raw_jobs.csv
+2026-03-12 15:29:52 | INFO     | __main__ |   data/filtered_cs_jobs.csv
+2026-03-12 15:29:52 | INFO     | __main__ |   data/filtered_cs_jobs.xlsx
+2026-03-12 15:29:52 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

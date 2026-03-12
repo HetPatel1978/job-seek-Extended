@@ -1,0 +1,72 @@
+[
+  {
+    "company_name": "Netflix",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/netflix"
+  },
+  {
+    "company_name": "Reddit",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/reddit"
+  },
+  {
+    "company_name": "Dropbox",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/dropbox"
+  },
+  {
+    "company_name": "Scale AI",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/scaleai"
+  },
+  {
+    "company_name": "Figma",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/figma"
+  },
+  {
+    "company_name": "Stripe",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/stripe"
+  },
+  {
+    "company_name": "Airbnb",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/airbnb"
+  },
+  {
+    "company_name": "Discord",
+    "ats": "greenhouse",
+    "url": "https://boards.greenhouse.io/discord"
+  },
+  {
+    "company_name": "Linear",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/linear"
+  },
+  {
+    "company_name": "Vercel",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/vercel"
+  },
+  {
+    "company_name": "Loom",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/loom"
+  },
+  {
+    "company_name": "Retool",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/retool"
+  },
+  {
+    "company_name": "Atlassian",
+    "ats": "workday",
+    "url": "https://atlassian.wd5.myworkdayjobs.com/en-US/Atlassian"
+  },
+  {
+    "company_name": "Workday",
+    "ats": "workday",
+    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday"
+  }
+]
