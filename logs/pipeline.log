@@ -291,3 +291,786 @@
 2026-03-12 15:29:52 | INFO     | __main__ |   data/filtered_cs_jobs.csv
 2026-03-12 15:29:52 | INFO     | __main__ |   data/filtered_cs_jobs.xlsx
 2026-03-12 15:29:52 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-12 17:55:31 | INFO     | __main__ | ============================================================
+2026-03-12 17:55:31 | INFO     | __main__ | job-seek pipeline starting
+2026-03-12 17:55:31 | INFO     | __main__ |   companies file : companies.json
+2026-03-12 17:55:31 | INFO     | __main__ |   output dir     : data
+2026-03-12 17:55:31 | INFO     | __main__ |   threshold      : 70
+2026-03-12 17:55:31 | INFO     | __main__ |   filter mode    : Keyword rules
+2026-03-12 17:55:31 | INFO     | __main__ | ============================================================
+2026-03-12 17:55:31 | INFO     | __main__ | Companies to scrape: 50
+2026-03-12 17:55:31 | INFO     | __main__ | [1/50] Scraping: Airtable
+2026-03-12 17:55:31 | INFO     | job_seek.adapters.scraper | Scraping Airtable via Greenhouse …
+2026-03-12 17:55:32 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Airtable: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/airtable)/jobs?content=true
+2026-03-12 17:55:32 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:32 | INFO     | __main__ | [2/50] Scraping: Airbnb
+2026-03-12 17:55:32 | INFO     | job_seek.adapters.scraper | Scraping Airbnb via Greenhouse …
+2026-03-12 17:55:32 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Airbnb: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/airbnb)/jobs?content=true
+2026-03-12 17:55:32 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:32 | INFO     | __main__ | [3/50] Scraping: Anduril
+2026-03-12 17:55:32 | INFO     | job_seek.adapters.scraper | Scraping Anduril via Greenhouse …
+2026-03-12 17:55:32 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Anduril: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/andurilindustries)/jobs?content=true
+2026-03-12 17:55:32 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:32 | INFO     | __main__ | [4/50] Scraping: Anthropic
+2026-03-12 17:55:32 | INFO     | job_seek.adapters.scraper | Scraping Anthropic via Ashby …
+2026-03-12 17:55:32 | ERROR    | job_seek.adapters.scraper | Ashby API error for Anthropic: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 17:55:32 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:32 | INFO     | __main__ | [5/50] Scraping: Asana
+2026-03-12 17:55:32 | INFO     | job_seek.adapters.scraper | Scraping Asana via Greenhouse …
+2026-03-12 17:55:32 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Asana: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/asana)/jobs?content=true
+2026-03-12 17:55:32 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:32 | INFO     | __main__ | [6/50] Scraping: Atlassian
+2026-03-12 17:55:32 | INFO     | job_seek.adapters.scraper | Scraping Atlassian via Workday …
+2026-03-12 17:55:32 | ERROR    | job_seek.adapters.scraper | Cannot parse Workday URL: [https://atlassian.wd5.myworkdayjobs.com/en-US/Atlassian](https://atlassian.wd5.myworkdayjobs.com/en-US/Atlassian) — expected format: https://company.wdN.myworkdayjobs.com/en-US/BoardName
+2026-03-12 17:55:32 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:32 | INFO     | __main__ | [7/50] Scraping: Benchling
+2026-03-12 17:55:32 | INFO     | job_seek.adapters.scraper | Scraping Benchling via Greenhouse …
+2026-03-12 17:55:32 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Benchling: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/benchling)/jobs?content=true
+2026-03-12 17:55:32 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:32 | INFO     | __main__ | [8/50] Scraping: BitGo
+2026-03-12 17:55:32 | INFO     | job_seek.adapters.scraper | Scraping BitGo via Greenhouse …
+2026-03-12 17:55:32 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for BitGo: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/bitgo)/jobs?content=true
+2026-03-12 17:55:32 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:32 | INFO     | __main__ | [9/50] Scraping: Box
+2026-03-12 17:55:32 | INFO     | job_seek.adapters.scraper | Scraping Box via Greenhouse …
+2026-03-12 17:55:33 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Box: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/boxinc)/jobs?content=true
+2026-03-12 17:55:33 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:33 | INFO     | __main__ | [10/50] Scraping: Brex
+2026-03-12 17:55:33 | INFO     | job_seek.adapters.scraper | Scraping Brex via Greenhouse …
+2026-03-12 17:55:33 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Brex: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/brex)/jobs?content=true
+2026-03-12 17:55:33 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:33 | INFO     | __main__ | [11/50] Scraping: Calendly
+2026-03-12 17:55:33 | INFO     | job_seek.adapters.scraper | Scraping Calendly via Greenhouse …
+2026-03-12 17:55:33 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Calendly: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/calendly)/jobs?content=true
+2026-03-12 17:55:33 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:33 | INFO     | __main__ | [12/50] Scraping: Celonis
+2026-03-12 17:55:33 | INFO     | job_seek.adapters.scraper | Scraping Celonis via Greenhouse …
+2026-03-12 17:55:33 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Celonis: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/celonis)/jobs?content=true
+2026-03-12 17:55:33 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:33 | INFO     | __main__ | [13/50] Scraping: Chime
+2026-03-12 17:55:33 | INFO     | job_seek.adapters.scraper | Scraping Chime via Greenhouse …
+2026-03-12 17:55:33 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Chime: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/chime)/jobs?content=true
+2026-03-12 17:55:33 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:33 | INFO     | __main__ | [14/50] Scraping: Coursera
+2026-03-12 17:55:33 | INFO     | job_seek.adapters.scraper | Scraping Coursera via Greenhouse …
+2026-03-12 17:55:33 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Coursera: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/coursera)/jobs?content=true
+2026-03-12 17:55:33 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:33 | INFO     | __main__ | [15/50] Scraping: Datadog
+2026-03-12 17:55:33 | INFO     | job_seek.adapters.scraper | Scraping Datadog via Greenhouse …
+2026-03-12 17:55:33 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Datadog: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/datadog)/jobs?content=true
+2026-03-12 17:55:33 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:33 | INFO     | __main__ | [16/50] Scraping: Discord
+2026-03-12 17:55:33 | INFO     | job_seek.adapters.scraper | Scraping Discord via Greenhouse …
+2026-03-12 17:55:33 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Discord: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/discord)/jobs?content=true
+2026-03-12 17:55:33 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:33 | INFO     | __main__ | [17/50] Scraping: Dropbox
+2026-03-12 17:55:33 | INFO     | job_seek.adapters.scraper | Scraping Dropbox via Lever …
+2026-03-12 17:55:34 | ERROR    | job_seek.adapters.scraper | Lever API error for Dropbox: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/dropbox)?mode=json&limit=250&offset=0
+2026-03-12 17:55:34 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Dropbox
+2026-03-12 17:55:34 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:34 | INFO     | __main__ | [18/50] Scraping: Duolingo
+2026-03-12 17:55:34 | INFO     | job_seek.adapters.scraper | Scraping Duolingo via Greenhouse …
+2026-03-12 17:55:34 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Duolingo: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/duolingo)/jobs?content=true
+2026-03-12 17:55:34 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:34 | INFO     | __main__ | [19/50] Scraping: Figma
+2026-03-12 17:55:34 | INFO     | job_seek.adapters.scraper | Scraping Figma via Greenhouse …
+2026-03-12 17:55:34 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Figma: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/figma)/jobs?content=true
+2026-03-12 17:55:34 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:34 | INFO     | __main__ | [20/50] Scraping: Flexport
+2026-03-12 17:55:34 | INFO     | job_seek.adapters.scraper | Scraping Flexport via Greenhouse …
+2026-03-12 17:55:35 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Flexport: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/flexport)/jobs?content=true
+2026-03-12 17:55:35 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:35 | INFO     | __main__ | [21/50] Scraping: Glean
+2026-03-12 17:55:35 | INFO     | job_seek.adapters.scraper | Scraping Glean via Greenhouse …
+2026-03-12 17:55:35 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Glean: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/gleanwork)/jobs?content=true
+2026-03-12 17:55:35 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:35 | INFO     | __main__ | [22/50] Scraping: Gong
+2026-03-12 17:55:35 | INFO     | job_seek.adapters.scraper | Scraping Gong via Greenhouse …
+2026-03-12 17:55:35 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Gong: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/gongio)/jobs?content=true
+2026-03-12 17:55:35 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:35 | INFO     | __main__ | [23/50] Scraping: Gusto
+2026-03-12 17:55:35 | INFO     | job_seek.adapters.scraper | Scraping Gusto via Greenhouse …
+2026-03-12 17:55:35 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Gusto: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/gusto)/jobs?content=true
+2026-03-12 17:55:35 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:35 | INFO     | __main__ | [24/50] Scraping: HubSpot
+2026-03-12 17:55:35 | INFO     | job_seek.adapters.scraper | Scraping HubSpot via Greenhouse …
+2026-03-12 17:55:35 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for HubSpot: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/hubspot)/jobs?content=true
+2026-03-12 17:55:35 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:35 | INFO     | __main__ | [25/50] Scraping: Intercom
+2026-03-12 17:55:35 | INFO     | job_seek.adapters.scraper | Scraping Intercom via Greenhouse …
+2026-03-12 17:55:35 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Intercom: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/intercom)/jobs?content=true
+2026-03-12 17:55:35 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:35 | INFO     | __main__ | [26/50] Scraping: Klaviyo
+2026-03-12 17:55:35 | INFO     | job_seek.adapters.scraper | Scraping Klaviyo via Greenhouse …
+2026-03-12 17:55:35 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Klaviyo: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/klaviyo)/jobs?content=true
+2026-03-12 17:55:35 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:35 | INFO     | __main__ | [27/50] Scraping: Linear
+2026-03-12 17:55:35 | INFO     | job_seek.adapters.scraper | Scraping Linear via Ashby …
+2026-03-12 17:55:35 | ERROR    | job_seek.adapters.scraper | Ashby API error for Linear: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 17:55:35 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:35 | INFO     | __main__ | [28/50] Scraping: Loom
+2026-03-12 17:55:35 | INFO     | job_seek.adapters.scraper | Scraping Loom via Ashby …
+2026-03-12 17:55:36 | ERROR    | job_seek.adapters.scraper | Ashby API error for Loom: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 17:55:36 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:36 | INFO     | __main__ | [29/50] Scraping: Lyft
+2026-03-12 17:55:36 | INFO     | job_seek.adapters.scraper | Scraping Lyft via Greenhouse …
+2026-03-12 17:55:36 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Lyft: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/lyft)/jobs?content=true
+2026-03-12 17:55:36 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:36 | INFO     | __main__ | [30/50] Scraping: Mercury
+2026-03-12 17:55:36 | INFO     | job_seek.adapters.scraper | Scraping Mercury via Greenhouse …
+2026-03-12 17:55:36 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Mercury: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/mercury)/jobs?content=true
+2026-03-12 17:55:36 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:36 | INFO     | __main__ | [31/50] Scraping: Miro
+2026-03-12 17:55:36 | INFO     | job_seek.adapters.scraper | Scraping Miro via Greenhouse …
+2026-03-12 17:55:36 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Miro: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/realtimeboardglobal)/jobs?content=true
+2026-03-12 17:55:36 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:36 | INFO     | __main__ | [32/50] Scraping: MongoDB
+2026-03-12 17:55:36 | INFO     | job_seek.adapters.scraper | Scraping MongoDB via Greenhouse …
+2026-03-12 17:55:36 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for MongoDB: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/mongodb)/jobs?content=true
+2026-03-12 17:55:36 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:36 | INFO     | __main__ | [33/50] Scraping: Netflix
+2026-03-12 17:55:36 | INFO     | job_seek.adapters.scraper | Scraping Netflix via Lever …
+2026-03-12 17:55:36 | ERROR    | job_seek.adapters.scraper | Lever API error for Netflix: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/netflix)?mode=json&limit=250&offset=0
+2026-03-12 17:55:36 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Netflix
+2026-03-12 17:55:36 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:36 | INFO     | __main__ | [34/50] Scraping: New Relic
+2026-03-12 17:55:36 | INFO     | job_seek.adapters.scraper | Scraping New Relic via Greenhouse …
+2026-03-12 17:55:37 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for New Relic: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/newrelic)/jobs?content=true
+2026-03-12 17:55:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:37 | INFO     | __main__ | [35/50] Scraping: Notion
+2026-03-12 17:55:37 | INFO     | job_seek.adapters.scraper | Scraping Notion via Greenhouse …
+2026-03-12 17:55:37 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Notion: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/notion)/jobs?content=true
+2026-03-12 17:55:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:37 | INFO     | __main__ | [36/50] Scraping: NVIDIA
+2026-03-12 17:55:37 | INFO     | job_seek.adapters.scraper | Scraping NVIDIA via Workday …
+2026-03-12 17:55:37 | ERROR    | job_seek.adapters.scraper | Cannot parse Workday URL: [https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite) — expected format: https://company.wdN.myworkdayjobs.com/en-US/BoardName
+2026-03-12 17:55:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:37 | INFO     | __main__ | [37/50] Scraping: PagerDuty
+2026-03-12 17:55:37 | INFO     | job_seek.adapters.scraper | Scraping PagerDuty via Greenhouse …
+2026-03-12 17:55:37 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for PagerDuty: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/pagerduty)/jobs?content=true
+2026-03-12 17:55:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:37 | INFO     | __main__ | [38/50] Scraping: Ramp
+2026-03-12 17:55:37 | INFO     | job_seek.adapters.scraper | Scraping Ramp via Ashby …
+2026-03-12 17:55:37 | ERROR    | job_seek.adapters.scraper | Ashby API error for Ramp: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-12 17:55:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:37 | INFO     | __main__ | [39/50] Scraping: Reddit
+2026-03-12 17:55:37 | INFO     | job_seek.adapters.scraper | Scraping Reddit via Greenhouse …
+2026-03-12 17:55:37 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Reddit: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/reddit)/jobs?content=true
+2026-03-12 17:55:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:37 | INFO     | __main__ | [40/50] Scraping: Retool
+2026-03-12 17:55:37 | INFO     | job_seek.adapters.scraper | Scraping Retool via Greenhouse …
+2026-03-12 17:55:37 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Retool: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/retool)/jobs?content=true
+2026-03-12 17:55:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:37 | INFO     | __main__ | [41/50] Scraping: Robinhood
+2026-03-12 17:55:37 | INFO     | job_seek.adapters.scraper | Scraping Robinhood via Greenhouse …
+2026-03-12 17:55:37 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Robinhood: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/robinhood)/jobs?content=true
+2026-03-12 17:55:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:37 | INFO     | __main__ | [42/50] Scraping: Scale AI
+2026-03-12 17:55:37 | INFO     | job_seek.adapters.scraper | Scraping Scale AI via Greenhouse …
+2026-03-12 17:55:37 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Scale AI: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/scaleai)/jobs?content=true
+2026-03-12 17:55:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:37 | INFO     | __main__ | [43/50] Scraping: SeatGeek
+2026-03-12 17:55:37 | INFO     | job_seek.adapters.scraper | Scraping SeatGeek via Greenhouse …
+2026-03-12 17:55:38 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for SeatGeek: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/seatgeek)/jobs?content=true
+2026-03-12 17:55:38 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:38 | INFO     | __main__ | [44/50] Scraping: Smartsheet
+2026-03-12 17:55:38 | INFO     | job_seek.adapters.scraper | Scraping Smartsheet via Greenhouse …
+2026-03-12 17:55:38 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Smartsheet: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/smartsheet)/jobs?content=true
+2026-03-12 17:55:38 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:38 | INFO     | __main__ | [45/50] Scraping: Stripe
+2026-03-12 17:55:38 | INFO     | job_seek.adapters.scraper | Scraping Stripe via Greenhouse …
+2026-03-12 17:55:38 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Stripe: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/stripe)/jobs?content=true
+2026-03-12 17:55:38 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:38 | INFO     | __main__ | [46/50] Scraping: Superhuman
+2026-03-12 17:55:38 | INFO     | job_seek.adapters.scraper | Scraping Superhuman via Greenhouse …
+2026-03-12 17:55:38 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Superhuman: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/grammarly)/jobs?content=true
+2026-03-12 17:55:38 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:38 | INFO     | __main__ | [47/50] Scraping: Vercel
+2026-03-12 17:55:38 | INFO     | job_seek.adapters.scraper | Scraping Vercel via Greenhouse …
+2026-03-12 17:55:38 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Vercel: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/vercel)/jobs?content=true
+2026-03-12 17:55:38 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:38 | INFO     | __main__ | [48/50] Scraping: Wealthfront
+2026-03-12 17:55:38 | INFO     | job_seek.adapters.scraper | Scraping Wealthfront via Lever …
+2026-03-12 17:55:39 | ERROR    | job_seek.adapters.scraper | Lever API error for Wealthfront: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/wealthfront)?mode=json&limit=250&offset=0
+2026-03-12 17:55:39 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Wealthfront
+2026-03-12 17:55:39 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:39 | INFO     | __main__ | [49/50] Scraping: Workday
+2026-03-12 17:55:39 | INFO     | job_seek.adapters.scraper | Scraping Workday via Workday …
+2026-03-12 17:55:39 | ERROR    | job_seek.adapters.scraper | Cannot parse Workday URL: [https://workday.wd5.myworkdayjobs.com/en-US/Workday](https://workday.wd5.myworkdayjobs.com/en-US/Workday) — expected format: https://company.wdN.myworkdayjobs.com/en-US/BoardName
+2026-03-12 17:55:39 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:39 | INFO     | __main__ | [50/50] Scraping: Zscaler
+2026-03-12 17:55:39 | INFO     | job_seek.adapters.scraper | Scraping Zscaler via Greenhouse …
+2026-03-12 17:55:39 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Zscaler: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/zscaler)/jobs?content=true
+2026-03-12 17:55:39 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-12 17:55:39 | INFO     | __main__ | Total raw jobs scraped: 0
+2026-03-12 17:55:39 | WARNING  | __main__ | No jobs scraped — check network connectivity and company URLs.
+2026-03-15 21:12:05 | INFO     | __main__ | ============================================================
+2026-03-15 21:12:05 | INFO     | __main__ | job-seek pipeline starting
+2026-03-15 21:12:05 | INFO     | __main__ |   companies file : companies.json
+2026-03-15 21:12:05 | INFO     | __main__ |   output dir     : data
+2026-03-15 21:12:05 | INFO     | __main__ |   threshold      : 70
+2026-03-15 21:12:05 | INFO     | __main__ |   filter mode    : Keyword rules
+2026-03-15 21:12:05 | INFO     | __main__ | ============================================================
+2026-03-15 21:12:05 | INFO     | __main__ | Companies to scrape: 50
+2026-03-15 21:12:05 | INFO     | __main__ | [1/50] Scraping: Airtable
+2026-03-15 21:12:05 | INFO     | job_seek.adapters.scraper | Scraping Airtable via Greenhouse …
+2026-03-15 21:12:07 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Airtable: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/airtable)/jobs?content=true
+2026-03-15 21:12:07 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:07 | INFO     | __main__ | [2/50] Scraping: Airbnb
+2026-03-15 21:12:07 | INFO     | job_seek.adapters.scraper | Scraping Airbnb via Greenhouse …
+2026-03-15 21:12:07 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Airbnb: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/airbnb)/jobs?content=true
+2026-03-15 21:12:07 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:07 | INFO     | __main__ | [3/50] Scraping: Anduril
+2026-03-15 21:12:07 | INFO     | job_seek.adapters.scraper | Scraping Anduril via Greenhouse …
+2026-03-15 21:12:07 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Anduril: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/andurilindustries)/jobs?content=true
+2026-03-15 21:12:07 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:07 | INFO     | __main__ | [4/50] Scraping: Anthropic
+2026-03-15 21:12:07 | INFO     | job_seek.adapters.scraper | Scraping Anthropic via Ashby …
+2026-03-15 21:12:07 | ERROR    | job_seek.adapters.scraper | Ashby API error for Anthropic: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:12:07 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:07 | INFO     | __main__ | [5/50] Scraping: Asana
+2026-03-15 21:12:07 | INFO     | job_seek.adapters.scraper | Scraping Asana via Greenhouse …
+2026-03-15 21:12:07 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Asana: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/asana)/jobs?content=true
+2026-03-15 21:12:07 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:07 | INFO     | __main__ | [6/50] Scraping: Atlassian
+2026-03-15 21:12:07 | INFO     | job_seek.adapters.scraper | Scraping Atlassian via Workday …
+2026-03-15 21:12:07 | ERROR    | job_seek.adapters.scraper | Cannot parse Workday URL: [https://atlassian.wd5.myworkdayjobs.com/en-US/Atlassian](https://atlassian.wd5.myworkdayjobs.com/en-US/Atlassian) — expected format: https://company.wdN.myworkdayjobs.com/en-US/BoardName
+2026-03-15 21:12:07 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:07 | INFO     | __main__ | [7/50] Scraping: Benchling
+2026-03-15 21:12:07 | INFO     | job_seek.adapters.scraper | Scraping Benchling via Greenhouse …
+2026-03-15 21:12:07 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Benchling: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/benchling)/jobs?content=true
+2026-03-15 21:12:07 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:07 | INFO     | __main__ | [8/50] Scraping: BitGo
+2026-03-15 21:12:07 | INFO     | job_seek.adapters.scraper | Scraping BitGo via Greenhouse …
+2026-03-15 21:12:07 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for BitGo: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/bitgo)/jobs?content=true
+2026-03-15 21:12:07 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:07 | INFO     | __main__ | [9/50] Scraping: Box
+2026-03-15 21:12:07 | INFO     | job_seek.adapters.scraper | Scraping Box via Greenhouse …
+2026-03-15 21:12:08 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Box: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/boxinc)/jobs?content=true
+2026-03-15 21:12:08 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:08 | INFO     | __main__ | [10/50] Scraping: Brex
+2026-03-15 21:12:08 | INFO     | job_seek.adapters.scraper | Scraping Brex via Greenhouse …
+2026-03-15 21:12:08 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Brex: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/brex)/jobs?content=true
+2026-03-15 21:12:08 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:08 | INFO     | __main__ | [11/50] Scraping: Calendly
+2026-03-15 21:12:08 | INFO     | job_seek.adapters.scraper | Scraping Calendly via Greenhouse …
+2026-03-15 21:12:10 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Calendly: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/calendly)/jobs?content=true
+2026-03-15 21:12:10 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:10 | INFO     | __main__ | [12/50] Scraping: Celonis
+2026-03-15 21:12:10 | INFO     | job_seek.adapters.scraper | Scraping Celonis via Greenhouse …
+2026-03-15 21:12:10 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Celonis: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/celonis)/jobs?content=true
+2026-03-15 21:12:10 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:10 | INFO     | __main__ | [13/50] Scraping: Chime
+2026-03-15 21:12:10 | INFO     | job_seek.adapters.scraper | Scraping Chime via Greenhouse …
+2026-03-15 21:12:10 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Chime: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/chime)/jobs?content=true
+2026-03-15 21:12:10 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:10 | INFO     | __main__ | [14/50] Scraping: Coursera
+2026-03-15 21:12:10 | INFO     | job_seek.adapters.scraper | Scraping Coursera via Greenhouse …
+2026-03-15 21:12:10 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Coursera: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/coursera)/jobs?content=true
+2026-03-15 21:12:10 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:10 | INFO     | __main__ | [15/50] Scraping: Datadog
+2026-03-15 21:12:10 | INFO     | job_seek.adapters.scraper | Scraping Datadog via Greenhouse …
+2026-03-15 21:12:10 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Datadog: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/datadog)/jobs?content=true
+2026-03-15 21:12:10 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:10 | INFO     | __main__ | [16/50] Scraping: Discord
+2026-03-15 21:12:10 | INFO     | job_seek.adapters.scraper | Scraping Discord via Greenhouse …
+2026-03-15 21:12:11 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Discord: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/discord)/jobs?content=true
+2026-03-15 21:12:11 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:11 | INFO     | __main__ | [17/50] Scraping: Dropbox
+2026-03-15 21:12:11 | INFO     | job_seek.adapters.scraper | Scraping Dropbox via Lever …
+2026-03-15 21:12:12 | ERROR    | job_seek.adapters.scraper | Lever API error for Dropbox: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/dropbox)?mode=json&limit=250&offset=0
+2026-03-15 21:12:12 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Dropbox
+2026-03-15 21:12:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:12 | INFO     | __main__ | [18/50] Scraping: Duolingo
+2026-03-15 21:12:12 | INFO     | job_seek.adapters.scraper | Scraping Duolingo via Greenhouse …
+2026-03-15 21:12:12 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Duolingo: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/duolingo)/jobs?content=true
+2026-03-15 21:12:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:12 | INFO     | __main__ | [19/50] Scraping: Figma
+2026-03-15 21:12:12 | INFO     | job_seek.adapters.scraper | Scraping Figma via Greenhouse …
+2026-03-15 21:12:12 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Figma: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/figma)/jobs?content=true
+2026-03-15 21:12:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:12 | INFO     | __main__ | [20/50] Scraping: Flexport
+2026-03-15 21:12:12 | INFO     | job_seek.adapters.scraper | Scraping Flexport via Greenhouse …
+2026-03-15 21:12:12 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Flexport: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/flexport)/jobs?content=true
+2026-03-15 21:12:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:12 | INFO     | __main__ | [21/50] Scraping: Glean
+2026-03-15 21:12:12 | INFO     | job_seek.adapters.scraper | Scraping Glean via Greenhouse …
+2026-03-15 21:12:12 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Glean: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/gleanwork)/jobs?content=true
+2026-03-15 21:12:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:12 | INFO     | __main__ | [22/50] Scraping: Gong
+2026-03-15 21:12:12 | INFO     | job_seek.adapters.scraper | Scraping Gong via Greenhouse …
+2026-03-15 21:12:12 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Gong: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/gongio)/jobs?content=true
+2026-03-15 21:12:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:12 | INFO     | __main__ | [23/50] Scraping: Gusto
+2026-03-15 21:12:12 | INFO     | job_seek.adapters.scraper | Scraping Gusto via Greenhouse …
+2026-03-15 21:12:12 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Gusto: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/gusto)/jobs?content=true
+2026-03-15 21:12:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:12 | INFO     | __main__ | [24/50] Scraping: HubSpot
+2026-03-15 21:12:12 | INFO     | job_seek.adapters.scraper | Scraping HubSpot via Greenhouse …
+2026-03-15 21:12:13 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for HubSpot: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/hubspot)/jobs?content=true
+2026-03-15 21:12:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:13 | INFO     | __main__ | [25/50] Scraping: Intercom
+2026-03-15 21:12:13 | INFO     | job_seek.adapters.scraper | Scraping Intercom via Greenhouse …
+2026-03-15 21:12:13 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Intercom: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/intercom)/jobs?content=true
+2026-03-15 21:12:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:13 | INFO     | __main__ | [26/50] Scraping: Klaviyo
+2026-03-15 21:12:13 | INFO     | job_seek.adapters.scraper | Scraping Klaviyo via Greenhouse …
+2026-03-15 21:12:13 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Klaviyo: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/klaviyo)/jobs?content=true
+2026-03-15 21:12:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:13 | INFO     | __main__ | [27/50] Scraping: Linear
+2026-03-15 21:12:13 | INFO     | job_seek.adapters.scraper | Scraping Linear via Ashby …
+2026-03-15 21:12:13 | ERROR    | job_seek.adapters.scraper | Ashby API error for Linear: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:12:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:13 | INFO     | __main__ | [28/50] Scraping: Loom
+2026-03-15 21:12:13 | INFO     | job_seek.adapters.scraper | Scraping Loom via Ashby …
+2026-03-15 21:12:13 | ERROR    | job_seek.adapters.scraper | Ashby API error for Loom: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:12:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:13 | INFO     | __main__ | [29/50] Scraping: Lyft
+2026-03-15 21:12:13 | INFO     | job_seek.adapters.scraper | Scraping Lyft via Greenhouse …
+2026-03-15 21:12:13 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Lyft: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/lyft)/jobs?content=true
+2026-03-15 21:12:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:13 | INFO     | __main__ | [30/50] Scraping: Mercury
+2026-03-15 21:12:13 | INFO     | job_seek.adapters.scraper | Scraping Mercury via Greenhouse …
+2026-03-15 21:12:13 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Mercury: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/mercury)/jobs?content=true
+2026-03-15 21:12:13 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:13 | INFO     | __main__ | [31/50] Scraping: Miro
+2026-03-15 21:12:13 | INFO     | job_seek.adapters.scraper | Scraping Miro via Greenhouse …
+2026-03-15 21:12:14 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Miro: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/realtimeboardglobal)/jobs?content=true
+2026-03-15 21:12:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:14 | INFO     | __main__ | [32/50] Scraping: MongoDB
+2026-03-15 21:12:14 | INFO     | job_seek.adapters.scraper | Scraping MongoDB via Greenhouse …
+2026-03-15 21:12:14 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for MongoDB: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/mongodb)/jobs?content=true
+2026-03-15 21:12:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:14 | INFO     | __main__ | [33/50] Scraping: Netflix
+2026-03-15 21:12:14 | INFO     | job_seek.adapters.scraper | Scraping Netflix via Lever …
+2026-03-15 21:12:14 | ERROR    | job_seek.adapters.scraper | Lever API error for Netflix: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/netflix)?mode=json&limit=250&offset=0
+2026-03-15 21:12:14 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Netflix
+2026-03-15 21:12:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:14 | INFO     | __main__ | [34/50] Scraping: New Relic
+2026-03-15 21:12:14 | INFO     | job_seek.adapters.scraper | Scraping New Relic via Greenhouse …
+2026-03-15 21:12:14 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for New Relic: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/newrelic)/jobs?content=true
+2026-03-15 21:12:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:14 | INFO     | __main__ | [35/50] Scraping: Notion
+2026-03-15 21:12:14 | INFO     | job_seek.adapters.scraper | Scraping Notion via Greenhouse …
+2026-03-15 21:12:14 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Notion: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/notion)/jobs?content=true
+2026-03-15 21:12:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:14 | INFO     | __main__ | [36/50] Scraping: NVIDIA
+2026-03-15 21:12:14 | INFO     | job_seek.adapters.scraper | Scraping NVIDIA via Workday …
+2026-03-15 21:12:14 | ERROR    | job_seek.adapters.scraper | Cannot parse Workday URL: [https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite) — expected format: https://company.wdN.myworkdayjobs.com/en-US/BoardName
+2026-03-15 21:12:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:14 | INFO     | __main__ | [37/50] Scraping: PagerDuty
+2026-03-15 21:12:14 | INFO     | job_seek.adapters.scraper | Scraping PagerDuty via Greenhouse …
+2026-03-15 21:12:15 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for PagerDuty: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/pagerduty)/jobs?content=true
+2026-03-15 21:12:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:15 | INFO     | __main__ | [38/50] Scraping: Ramp
+2026-03-15 21:12:15 | INFO     | job_seek.adapters.scraper | Scraping Ramp via Ashby …
+2026-03-15 21:12:15 | ERROR    | job_seek.adapters.scraper | Ashby API error for Ramp: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:12:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:15 | INFO     | __main__ | [39/50] Scraping: Reddit
+2026-03-15 21:12:15 | INFO     | job_seek.adapters.scraper | Scraping Reddit via Greenhouse …
+2026-03-15 21:12:15 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Reddit: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/reddit)/jobs?content=true
+2026-03-15 21:12:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:15 | INFO     | __main__ | [40/50] Scraping: Retool
+2026-03-15 21:12:15 | INFO     | job_seek.adapters.scraper | Scraping Retool via Greenhouse …
+2026-03-15 21:12:15 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Retool: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/retool)/jobs?content=true
+2026-03-15 21:12:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:15 | INFO     | __main__ | [41/50] Scraping: Robinhood
+2026-03-15 21:12:15 | INFO     | job_seek.adapters.scraper | Scraping Robinhood via Greenhouse …
+2026-03-15 21:12:15 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Robinhood: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/robinhood)/jobs?content=true
+2026-03-15 21:12:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:15 | INFO     | __main__ | [42/50] Scraping: Scale AI
+2026-03-15 21:12:15 | INFO     | job_seek.adapters.scraper | Scraping Scale AI via Greenhouse …
+2026-03-15 21:12:15 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Scale AI: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/scaleai)/jobs?content=true
+2026-03-15 21:12:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:15 | INFO     | __main__ | [43/50] Scraping: SeatGeek
+2026-03-15 21:12:15 | INFO     | job_seek.adapters.scraper | Scraping SeatGeek via Greenhouse …
+2026-03-15 21:12:15 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for SeatGeek: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/seatgeek)/jobs?content=true
+2026-03-15 21:12:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:15 | INFO     | __main__ | [44/50] Scraping: Smartsheet
+2026-03-15 21:12:15 | INFO     | job_seek.adapters.scraper | Scraping Smartsheet via Greenhouse …
+2026-03-15 21:12:15 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Smartsheet: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/smartsheet)/jobs?content=true
+2026-03-15 21:12:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:15 | INFO     | __main__ | [45/50] Scraping: Stripe
+2026-03-15 21:12:15 | INFO     | job_seek.adapters.scraper | Scraping Stripe via Greenhouse …
+2026-03-15 21:12:16 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Stripe: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/stripe)/jobs?content=true
+2026-03-15 21:12:16 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:16 | INFO     | __main__ | [46/50] Scraping: Superhuman
+2026-03-15 21:12:16 | INFO     | job_seek.adapters.scraper | Scraping Superhuman via Greenhouse …
+2026-03-15 21:12:16 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Superhuman: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/grammarly)/jobs?content=true
+2026-03-15 21:12:16 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:16 | INFO     | __main__ | [47/50] Scraping: Vercel
+2026-03-15 21:12:16 | INFO     | job_seek.adapters.scraper | Scraping Vercel via Greenhouse …
+2026-03-15 21:12:16 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Vercel: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/vercel)/jobs?content=true
+2026-03-15 21:12:16 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:16 | INFO     | __main__ | [48/50] Scraping: Wealthfront
+2026-03-15 21:12:16 | INFO     | job_seek.adapters.scraper | Scraping Wealthfront via Lever …
+2026-03-15 21:12:16 | ERROR    | job_seek.adapters.scraper | Lever API error for Wealthfront: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/wealthfront)?mode=json&limit=250&offset=0
+2026-03-15 21:12:16 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Wealthfront
+2026-03-15 21:12:16 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:16 | INFO     | __main__ | [49/50] Scraping: Workday
+2026-03-15 21:12:16 | INFO     | job_seek.adapters.scraper | Scraping Workday via Workday …
+2026-03-15 21:12:16 | ERROR    | job_seek.adapters.scraper | Cannot parse Workday URL: [https://workday.wd5.myworkdayjobs.com/en-US/Workday](https://workday.wd5.myworkdayjobs.com/en-US/Workday) — expected format: https://company.wdN.myworkdayjobs.com/en-US/BoardName
+2026-03-15 21:12:16 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:16 | INFO     | __main__ | [50/50] Scraping: Zscaler
+2026-03-15 21:12:16 | INFO     | job_seek.adapters.scraper | Scraping Zscaler via Greenhouse …
+2026-03-15 21:12:16 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Zscaler: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/zscaler)/jobs?content=true
+2026-03-15 21:12:16 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:12:16 | INFO     | __main__ | Total raw jobs scraped: 0
+2026-03-15 21:12:16 | WARNING  | __main__ | No jobs scraped — check network connectivity and company URLs.
+2026-03-15 21:12:52 | INFO     | __main__ | ============================================================
+2026-03-15 21:12:52 | INFO     | __main__ | job-seek pipeline starting
+2026-03-15 21:12:52 | INFO     | __main__ |   companies file : companies.json
+2026-03-15 21:12:52 | INFO     | __main__ |   output dir     : data
+2026-03-15 21:12:52 | INFO     | __main__ |   threshold      : 70
+2026-03-15 21:12:52 | INFO     | __main__ |   filter mode    : Keyword rules
+2026-03-15 21:12:52 | INFO     | __main__ | ============================================================
+2026-03-15 21:12:52 | INFO     | __main__ | Companies to scrape: 14
+2026-03-15 21:12:52 | INFO     | __main__ | [1/14] Scraping: Netflix
+2026-03-15 21:12:52 | INFO     | job_seek.adapters.scraper | Scraping Netflix via Lever …
+2026-03-15 21:13:11 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Netflix
+2026-03-15 21:13:11 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:11 | INFO     | __main__ | [2/14] Scraping: Reddit
+2026-03-15 21:13:11 | INFO     | job_seek.adapters.scraper | Scraping Reddit via Lever …
+2026-03-15 21:13:11 | ERROR    | job_seek.adapters.scraper | Lever API error for Reddit: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/reddit?mode=json&limit=250&offset=0
+2026-03-15 21:13:11 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Reddit
+2026-03-15 21:13:11 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:11 | INFO     | __main__ | [3/14] Scraping: Dropbox
+2026-03-15 21:13:11 | INFO     | job_seek.adapters.scraper | Scraping Dropbox via Lever …
+2026-03-15 21:13:12 | ERROR    | job_seek.adapters.scraper | Lever API error for Dropbox: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/dropbox?mode=json&limit=250&offset=0
+2026-03-15 21:13:12 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Dropbox
+2026-03-15 21:13:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:12 | INFO     | __main__ | [4/14] Scraping: Scale AI
+2026-03-15 21:13:12 | INFO     | job_seek.adapters.scraper | Scraping Scale AI via Lever …
+2026-03-15 21:13:12 | ERROR    | job_seek.adapters.scraper | Lever API error for Scale AI: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/scaleai?mode=json&limit=250&offset=0
+2026-03-15 21:13:12 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Scale AI
+2026-03-15 21:13:12 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:12 | INFO     | __main__ | [5/14] Scraping: Figma
+2026-03-15 21:13:12 | INFO     | job_seek.adapters.scraper | Scraping Figma via Greenhouse …
+2026-03-15 21:13:12 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 164 jobs for Figma
+2026-03-15 21:13:12 | INFO     | __main__ |   → 164 raw jobs fetched
+2026-03-15 21:13:12 | INFO     | __main__ | [6/14] Scraping: Stripe
+2026-03-15 21:13:12 | INFO     | job_seek.adapters.scraper | Scraping Stripe via Greenhouse …
+2026-03-15 21:13:13 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 528 jobs for Stripe
+2026-03-15 21:13:13 | INFO     | __main__ |   → 528 raw jobs fetched
+2026-03-15 21:13:13 | INFO     | __main__ | [7/14] Scraping: Airbnb
+2026-03-15 21:13:13 | INFO     | job_seek.adapters.scraper | Scraping Airbnb via Greenhouse …
+2026-03-15 21:13:13 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 243 jobs for Airbnb
+2026-03-15 21:13:13 | INFO     | __main__ |   → 243 raw jobs fetched
+2026-03-15 21:13:13 | INFO     | __main__ | [8/14] Scraping: Discord
+2026-03-15 21:13:13 | INFO     | job_seek.adapters.scraper | Scraping Discord via Greenhouse …
+2026-03-15 21:13:13 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 83 jobs for Discord
+2026-03-15 21:13:13 | INFO     | __main__ |   → 83 raw jobs fetched
+2026-03-15 21:13:13 | INFO     | __main__ | [9/14] Scraping: Linear
+2026-03-15 21:13:13 | INFO     | job_seek.adapters.scraper | Scraping Linear via Ashby …
+2026-03-15 21:13:14 | ERROR    | job_seek.adapters.scraper | Ashby API error for Linear: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:13:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:14 | INFO     | __main__ | [10/14] Scraping: Vercel
+2026-03-15 21:13:14 | INFO     | job_seek.adapters.scraper | Scraping Vercel via Ashby …
+2026-03-15 21:13:14 | ERROR    | job_seek.adapters.scraper | Ashby API error for Vercel: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:13:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:14 | INFO     | __main__ | [11/14] Scraping: Loom
+2026-03-15 21:13:14 | INFO     | job_seek.adapters.scraper | Scraping Loom via Ashby …
+2026-03-15 21:13:14 | ERROR    | job_seek.adapters.scraper | Ashby API error for Loom: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:13:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:14 | INFO     | __main__ | [12/14] Scraping: Retool
+2026-03-15 21:13:14 | INFO     | job_seek.adapters.scraper | Scraping Retool via Ashby …
+2026-03-15 21:13:14 | ERROR    | job_seek.adapters.scraper | Ashby API error for Retool: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:13:14 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:14 | INFO     | __main__ | [13/14] Scraping: Atlassian
+2026-03-15 21:13:14 | INFO     | job_seek.adapters.scraper | Scraping Atlassian via Workday …
+2026-03-15 21:13:15 | ERROR    | job_seek.adapters.scraper | Workday API error for Atlassian (page 0): 422 Client Error: Unprocessable Entity for url: https://atlassian.wd5.myworkdayjobs.com/wday/cxs/en-US/Atlassian/jobs
+2026-03-15 21:13:15 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for Atlassian
+2026-03-15 21:13:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:15 | INFO     | __main__ | [14/14] Scraping: Workday
+2026-03-15 21:13:15 | INFO     | job_seek.adapters.scraper | Scraping Workday via Workday …
+2026-03-15 21:13:15 | ERROR    | job_seek.adapters.scraper | Workday API error for Workday (page 0): 422 Client Error: Unprocessable Entity for url: https://workday.wd5.myworkdayjobs.com/wday/cxs/en-US/Workday/jobs
+2026-03-15 21:13:15 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for Workday
+2026-03-15 21:13:15 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:13:15 | INFO     | __main__ | Total raw jobs scraped: 1018
+2026-03-15 21:13:15 | INFO     | __main__ | Normalising records …
+2026-03-15 21:13:15 | INFO     | __main__ | Normalisation complete: 1018 records
+2026-03-15 21:13:15 | INFO     | __main__ | Deduplicating …
+2026-03-15 21:13:15 | INFO     | job_seek.utils.deduplication | Deduplication: no duplicates found (1018 records)
+2026-03-15 21:13:15 | INFO     | job_seek.exporters.csv_xlsx | CSV written: data\raw_jobs.csv  (1018 rows)
+2026-03-15 21:13:15 | INFO     | __main__ | Filtering with keyword rules …
+2026-03-15 21:13:15 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 212 kept / 806 rejected (threshold=70)
+2026-03-15 21:13:15 | INFO     | job_seek.exporters.csv_xlsx | CSV written: data\raw_jobs.csv  (1018 rows)
+2026-03-15 21:13:15 | INFO     | job_seek.exporters.csv_xlsx | CSV written: data\filtered_cs_jobs.csv  (212 rows)
+2026-03-15 21:13:20 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: data\filtered_cs_jobs.xlsx  (212 rows + summary sheet)
+2026-03-15 21:13:20 | INFO     | job_seek.exporters.csv_xlsx | Export summary — raw: 1018 rows | filtered: 212 rows | output dir: C:\Users\hetp2\Desktop\projects\job-seek\job-seek\data
+2026-03-15 21:13:20 | INFO     | __main__ | 
+2026-03-15 21:13:20 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-15 21:13:20 | INFO     | __main__ | PIPELINE SUMMARY
+2026-03-15 21:13:20 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-15 21:13:20 | INFO     | __main__ |   Total unique jobs scraped : 1018
+2026-03-15 21:13:20 | INFO     | __main__ |   Jobs kept (CS/IT roles)   : 212
+2026-03-15 21:13:20 | INFO     | __main__ |   Jobs rejected             : 806
+2026-03-15 21:13:20 | INFO     | __main__ |   Elapsed time              : 27.3 s
+2026-03-15 21:13:20 | INFO     | __main__ | 
+2026-03-15 21:13:20 | INFO     | __main__ |   Top categories:
+2026-03-15 21:13:20 | INFO     | __main__ |     Software Engineering                111
+2026-03-15 21:13:20 | INFO     | __main__ |     Data Science / ML                   29
+2026-03-15 21:13:20 | INFO     | __main__ |     Backend Engineering                 19
+2026-03-15 21:13:20 | INFO     | __main__ |     Full Stack Development              18
+2026-03-15 21:13:20 | INFO     | __main__ |     Database / BI                       9
+2026-03-15 21:13:20 | INFO     | __main__ |     Frontend Engineering                8
+2026-03-15 21:13:20 | INFO     | __main__ |     Data Engineering                    6
+2026-03-15 21:13:20 | INFO     | __main__ |     Cybersecurity                       6
+2026-03-15 21:13:20 | INFO     | __main__ |     QA / Test Automation                3
+2026-03-15 21:13:20 | INFO     | __main__ |     IT Support / Admin                  1
+2026-03-15 21:13:20 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-15 21:13:20 | INFO     | __main__ | Output files:
+2026-03-15 21:13:20 | INFO     | __main__ |   data/raw_jobs.csv
+2026-03-15 21:13:20 | INFO     | __main__ |   data/filtered_cs_jobs.csv
+2026-03-15 21:13:20 | INFO     | __main__ |   data/filtered_cs_jobs.xlsx
+2026-03-15 21:13:20 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-15 21:22:17 | INFO     | __main__ | ============================================================
+2026-03-15 21:22:17 | INFO     | __main__ | job-seek pipeline starting
+2026-03-15 21:22:17 | INFO     | __main__ |   companies file : companies.json
+2026-03-15 21:22:17 | INFO     | __main__ |   output dir     : data
+2026-03-15 21:22:17 | INFO     | __main__ |   threshold      : 70
+2026-03-15 21:22:17 | INFO     | __main__ |   filter mode    : Keyword rules
+2026-03-15 21:22:17 | INFO     | __main__ | ============================================================
+2026-03-15 21:22:17 | INFO     | __main__ | Companies to scrape: 50
+2026-03-15 21:22:17 | INFO     | __main__ | [1/50] Scraping: Airtable
+2026-03-15 21:22:17 | INFO     | job_seek.adapters.scraper | Scraping Airtable via Greenhouse …
+2026-03-15 21:22:17 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 53 jobs for Airtable
+2026-03-15 21:22:17 | INFO     | __main__ |   → 53 raw jobs fetched
+2026-03-15 21:22:17 | INFO     | __main__ | [2/50] Scraping: Airbnb
+2026-03-15 21:22:17 | INFO     | job_seek.adapters.scraper | Scraping Airbnb via Greenhouse …
+2026-03-15 21:22:18 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 243 jobs for Airbnb
+2026-03-15 21:22:18 | INFO     | __main__ |   → 243 raw jobs fetched
+2026-03-15 21:22:18 | INFO     | __main__ | [3/50] Scraping: Anduril
+2026-03-15 21:22:18 | INFO     | job_seek.adapters.scraper | Scraping Anduril via Greenhouse …
+2026-03-15 21:22:28 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 1670 jobs for Anduril
+2026-03-15 21:22:28 | INFO     | __main__ |   → 1670 raw jobs fetched
+2026-03-15 21:22:28 | INFO     | __main__ | [4/50] Scraping: Anthropic
+2026-03-15 21:22:28 | INFO     | job_seek.adapters.scraper | Scraping Anthropic via Ashby …
+2026-03-15 21:22:28 | ERROR    | job_seek.adapters.scraper | Ashby API error for Anthropic: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:22:28 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:28 | INFO     | __main__ | [5/50] Scraping: Asana
+2026-03-15 21:22:28 | INFO     | job_seek.adapters.scraper | Scraping Asana via Greenhouse …
+2026-03-15 21:22:28 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 158 jobs for Asana
+2026-03-15 21:22:28 | INFO     | __main__ |   → 158 raw jobs fetched
+2026-03-15 21:22:28 | INFO     | __main__ | [6/50] Scraping: Atlassian
+2026-03-15 21:22:28 | INFO     | job_seek.adapters.scraper | Scraping Atlassian via Workday …
+2026-03-15 21:22:29 | ERROR    | job_seek.adapters.scraper | Workday API error for Atlassian (page 0): 422 Client Error: Unprocessable Entity for url: https://atlassian.wd5.myworkdayjobs.com/wday/cxs/en-US/Atlassian/jobs
+2026-03-15 21:22:29 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for Atlassian
+2026-03-15 21:22:29 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:29 | INFO     | __main__ | [7/50] Scraping: Benchling
+2026-03-15 21:22:29 | INFO     | job_seek.adapters.scraper | Scraping Benchling via Greenhouse …
+2026-03-15 21:22:29 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Benchling: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/benchling/jobs?content=true
+2026-03-15 21:22:29 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:29 | INFO     | __main__ | [8/50] Scraping: BitGo
+2026-03-15 21:22:29 | INFO     | job_seek.adapters.scraper | Scraping BitGo via Greenhouse …
+2026-03-15 21:22:29 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 82 jobs for BitGo
+2026-03-15 21:22:29 | INFO     | __main__ |   → 82 raw jobs fetched
+2026-03-15 21:22:29 | INFO     | __main__ | [9/50] Scraping: Box
+2026-03-15 21:22:29 | INFO     | job_seek.adapters.scraper | Scraping Box via Greenhouse …
+2026-03-15 21:22:30 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 159 jobs for Box
+2026-03-15 21:22:30 | INFO     | __main__ |   → 159 raw jobs fetched
+2026-03-15 21:22:30 | INFO     | __main__ | [10/50] Scraping: Brex
+2026-03-15 21:22:30 | INFO     | job_seek.adapters.scraper | Scraping Brex via Greenhouse …
+2026-03-15 21:22:30 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 238 jobs for Brex
+2026-03-15 21:22:30 | INFO     | __main__ |   → 238 raw jobs fetched
+2026-03-15 21:22:30 | INFO     | __main__ | [11/50] Scraping: Calendly
+2026-03-15 21:22:30 | INFO     | job_seek.adapters.scraper | Scraping Calendly via Greenhouse …
+2026-03-15 21:22:31 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 24 jobs for Calendly
+2026-03-15 21:22:31 | INFO     | __main__ |   → 24 raw jobs fetched
+2026-03-15 21:22:31 | INFO     | __main__ | [12/50] Scraping: Celonis
+2026-03-15 21:22:31 | INFO     | job_seek.adapters.scraper | Scraping Celonis via Greenhouse …
+2026-03-15 21:22:31 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 290 jobs for Celonis
+2026-03-15 21:22:31 | INFO     | __main__ |   → 290 raw jobs fetched
+2026-03-15 21:22:31 | INFO     | __main__ | [13/50] Scraping: Chime
+2026-03-15 21:22:31 | INFO     | job_seek.adapters.scraper | Scraping Chime via Greenhouse …
+2026-03-15 21:22:31 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 59 jobs for Chime
+2026-03-15 21:22:31 | INFO     | __main__ |   → 59 raw jobs fetched
+2026-03-15 21:22:31 | INFO     | __main__ | [14/50] Scraping: Coursera
+2026-03-15 21:22:31 | INFO     | job_seek.adapters.scraper | Scraping Coursera via Greenhouse …
+2026-03-15 21:22:31 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 20 jobs for Coursera
+2026-03-15 21:22:31 | INFO     | __main__ |   → 20 raw jobs fetched
+2026-03-15 21:22:31 | INFO     | __main__ | [15/50] Scraping: Datadog
+2026-03-15 21:22:31 | INFO     | job_seek.adapters.scraper | Scraping Datadog via Greenhouse …
+2026-03-15 21:22:32 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 442 jobs for Datadog
+2026-03-15 21:22:32 | INFO     | __main__ |   → 442 raw jobs fetched
+2026-03-15 21:22:32 | INFO     | __main__ | [16/50] Scraping: Discord
+2026-03-15 21:22:32 | INFO     | job_seek.adapters.scraper | Scraping Discord via Greenhouse …
+2026-03-15 21:22:32 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 83 jobs for Discord
+2026-03-15 21:22:32 | INFO     | __main__ |   → 83 raw jobs fetched
+2026-03-15 21:22:32 | INFO     | __main__ | [17/50] Scraping: Dropbox
+2026-03-15 21:22:32 | INFO     | job_seek.adapters.scraper | Scraping Dropbox via Lever …
+2026-03-15 21:22:33 | ERROR    | job_seek.adapters.scraper | Lever API error for Dropbox: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/dropbox?mode=json&limit=250&offset=0
+2026-03-15 21:22:33 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Dropbox
+2026-03-15 21:22:33 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:33 | INFO     | __main__ | [18/50] Scraping: Duolingo
+2026-03-15 21:22:33 | INFO     | job_seek.adapters.scraper | Scraping Duolingo via Greenhouse …
+2026-03-15 21:22:33 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 82 jobs for Duolingo
+2026-03-15 21:22:33 | INFO     | __main__ |   → 82 raw jobs fetched
+2026-03-15 21:22:33 | INFO     | __main__ | [19/50] Scraping: Figma
+2026-03-15 21:22:33 | INFO     | job_seek.adapters.scraper | Scraping Figma via Greenhouse …
+2026-03-15 21:22:33 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 164 jobs for Figma
+2026-03-15 21:22:33 | INFO     | __main__ |   → 164 raw jobs fetched
+2026-03-15 21:22:33 | INFO     | __main__ | [20/50] Scraping: Flexport
+2026-03-15 21:22:33 | INFO     | job_seek.adapters.scraper | Scraping Flexport via Greenhouse …
+2026-03-15 21:22:34 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 167 jobs for Flexport
+2026-03-15 21:22:34 | INFO     | __main__ |   → 167 raw jobs fetched
+2026-03-15 21:22:34 | INFO     | __main__ | [21/50] Scraping: Glean
+2026-03-15 21:22:34 | INFO     | job_seek.adapters.scraper | Scraping Glean via Greenhouse …
+2026-03-15 21:22:34 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 193 jobs for Glean
+2026-03-15 21:22:34 | INFO     | __main__ |   → 193 raw jobs fetched
+2026-03-15 21:22:34 | INFO     | __main__ | [22/50] Scraping: Gong
+2026-03-15 21:22:34 | INFO     | job_seek.adapters.scraper | Scraping Gong via Greenhouse …
+2026-03-15 21:22:35 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 99 jobs for Gong
+2026-03-15 21:22:35 | INFO     | __main__ |   → 99 raw jobs fetched
+2026-03-15 21:22:35 | INFO     | __main__ | [23/50] Scraping: Gusto
+2026-03-15 21:22:35 | INFO     | job_seek.adapters.scraper | Scraping Gusto via Greenhouse …
+2026-03-15 21:22:35 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 76 jobs for Gusto
+2026-03-15 21:22:35 | INFO     | __main__ |   → 76 raw jobs fetched
+2026-03-15 21:22:35 | INFO     | __main__ | [24/50] Scraping: HubSpot
+2026-03-15 21:22:35 | INFO     | job_seek.adapters.scraper | Scraping HubSpot via Greenhouse …
+2026-03-15 21:22:36 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 0 jobs for HubSpot
+2026-03-15 21:22:36 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:36 | INFO     | __main__ | [25/50] Scraping: Intercom
+2026-03-15 21:22:36 | INFO     | job_seek.adapters.scraper | Scraping Intercom via Greenhouse …
+2026-03-15 21:22:36 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 209 jobs for Intercom
+2026-03-15 21:22:36 | INFO     | __main__ |   → 209 raw jobs fetched
+2026-03-15 21:22:36 | INFO     | __main__ | [26/50] Scraping: Klaviyo
+2026-03-15 21:22:36 | INFO     | job_seek.adapters.scraper | Scraping Klaviyo via Greenhouse …
+2026-03-15 21:22:37 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 244 jobs for Klaviyo
+2026-03-15 21:22:37 | INFO     | __main__ |   → 244 raw jobs fetched
+2026-03-15 21:22:37 | INFO     | __main__ | [27/50] Scraping: Linear
+2026-03-15 21:22:37 | INFO     | job_seek.adapters.scraper | Scraping Linear via Ashby …
+2026-03-15 21:22:37 | ERROR    | job_seek.adapters.scraper | Ashby API error for Linear: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:22:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:37 | INFO     | __main__ | [28/50] Scraping: Loom
+2026-03-15 21:22:37 | INFO     | job_seek.adapters.scraper | Scraping Loom via Ashby …
+2026-03-15 21:22:37 | ERROR    | job_seek.adapters.scraper | Ashby API error for Loom: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:22:37 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:37 | INFO     | __main__ | [29/50] Scraping: Lyft
+2026-03-15 21:22:37 | INFO     | job_seek.adapters.scraper | Scraping Lyft via Greenhouse …
+2026-03-15 21:22:37 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 170 jobs for Lyft
+2026-03-15 21:22:37 | INFO     | __main__ |   → 170 raw jobs fetched
+2026-03-15 21:22:37 | INFO     | __main__ | [30/50] Scraping: Mercury
+2026-03-15 21:22:37 | INFO     | job_seek.adapters.scraper | Scraping Mercury via Greenhouse …
+2026-03-15 21:22:38 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 48 jobs for Mercury
+2026-03-15 21:22:38 | INFO     | __main__ |   → 48 raw jobs fetched
+2026-03-15 21:22:38 | INFO     | __main__ | [31/50] Scraping: Miro
+2026-03-15 21:22:38 | INFO     | job_seek.adapters.scraper | Scraping Miro via Greenhouse …
+2026-03-15 21:22:38 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 61 jobs for Miro
+2026-03-15 21:22:38 | INFO     | __main__ |   → 61 raw jobs fetched
+2026-03-15 21:22:38 | INFO     | __main__ | [32/50] Scraping: MongoDB
+2026-03-15 21:22:38 | INFO     | job_seek.adapters.scraper | Scraping MongoDB via Greenhouse …
+2026-03-15 21:22:38 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 401 jobs for MongoDB
+2026-03-15 21:22:38 | INFO     | __main__ |   → 401 raw jobs fetched
+2026-03-15 21:22:38 | INFO     | __main__ | [33/50] Scraping: Netflix
+2026-03-15 21:22:38 | INFO     | job_seek.adapters.scraper | Scraping Netflix via Lever …
+2026-03-15 21:22:53 | INFO     | job_seek.adapters.scraper | Lever: scraped 0 jobs for Netflix
+2026-03-15 21:22:53 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:53 | INFO     | __main__ | [34/50] Scraping: New Relic
+2026-03-15 21:22:53 | INFO     | job_seek.adapters.scraper | Scraping New Relic via Greenhouse …
+2026-03-15 21:22:54 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 42 jobs for New Relic
+2026-03-15 21:22:54 | INFO     | __main__ |   → 42 raw jobs fetched
+2026-03-15 21:22:54 | INFO     | __main__ | [35/50] Scraping: Notion
+2026-03-15 21:22:54 | INFO     | job_seek.adapters.scraper | Scraping Notion via Greenhouse …
+2026-03-15 21:22:54 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Notion: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/notion/jobs?content=true
+2026-03-15 21:22:54 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:54 | INFO     | __main__ | [36/50] Scraping: NVIDIA
+2026-03-15 21:22:54 | INFO     | job_seek.adapters.scraper | Scraping NVIDIA via Workday …
+2026-03-15 21:22:54 | ERROR    | job_seek.adapters.scraper | Workday API error for NVIDIA (page 0): 422 Client Error: Unprocessable Entity for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/en-US/NVIDIAExternalCareerSite/jobs
+2026-03-15 21:22:54 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for NVIDIA
+2026-03-15 21:22:54 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:54 | INFO     | __main__ | [37/50] Scraping: PagerDuty
+2026-03-15 21:22:54 | INFO     | job_seek.adapters.scraper | Scraping PagerDuty via Greenhouse …
+2026-03-15 21:22:54 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 47 jobs for PagerDuty
+2026-03-15 21:22:54 | INFO     | __main__ |   → 47 raw jobs fetched
+2026-03-15 21:22:54 | INFO     | __main__ | [38/50] Scraping: Ramp
+2026-03-15 21:22:54 | INFO     | job_seek.adapters.scraper | Scraping Ramp via Ashby …
+2026-03-15 21:22:55 | ERROR    | job_seek.adapters.scraper | Ashby API error for Ramp: 401 Client Error: Unauthorized for url: https://api.ashbyhq.com/posting-api/job-board
+2026-03-15 21:22:55 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:55 | INFO     | __main__ | [39/50] Scraping: Reddit
+2026-03-15 21:22:55 | INFO     | job_seek.adapters.scraper | Scraping Reddit via Greenhouse …
+2026-03-15 21:22:55 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 144 jobs for Reddit
+2026-03-15 21:22:55 | INFO     | __main__ |   → 144 raw jobs fetched
+2026-03-15 21:22:55 | INFO     | __main__ | [40/50] Scraping: Retool
+2026-03-15 21:22:55 | INFO     | job_seek.adapters.scraper | Scraping Retool via Greenhouse …
+2026-03-15 21:22:55 | ERROR    | job_seek.adapters.scraper | Greenhouse API error for Retool: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/retool/jobs?content=true
+2026-03-15 21:22:55 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:55 | INFO     | __main__ | [41/50] Scraping: Robinhood
+2026-03-15 21:22:55 | INFO     | job_seek.adapters.scraper | Scraping Robinhood via Greenhouse …
+2026-03-15 21:22:55 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 137 jobs for Robinhood
+2026-03-15 21:22:55 | INFO     | __main__ |   → 137 raw jobs fetched
+2026-03-15 21:22:55 | INFO     | __main__ | [42/50] Scraping: Scale AI
+2026-03-15 21:22:55 | INFO     | job_seek.adapters.scraper | Scraping Scale AI via Greenhouse …
+2026-03-15 21:22:56 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 169 jobs for Scale AI
+2026-03-15 21:22:56 | INFO     | __main__ |   → 169 raw jobs fetched
+2026-03-15 21:22:56 | INFO     | __main__ | [43/50] Scraping: SeatGeek
+2026-03-15 21:22:56 | INFO     | job_seek.adapters.scraper | Scraping SeatGeek via Greenhouse …
+2026-03-15 21:22:56 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 49 jobs for SeatGeek
+2026-03-15 21:22:56 | INFO     | __main__ |   → 49 raw jobs fetched
+2026-03-15 21:22:56 | INFO     | __main__ | [44/50] Scraping: Smartsheet
+2026-03-15 21:22:56 | INFO     | job_seek.adapters.scraper | Scraping Smartsheet via Greenhouse …
+2026-03-15 21:22:56 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 124 jobs for Smartsheet
+2026-03-15 21:22:56 | INFO     | __main__ |   → 124 raw jobs fetched
+2026-03-15 21:22:56 | INFO     | __main__ | [45/50] Scraping: Stripe
+2026-03-15 21:22:56 | INFO     | job_seek.adapters.scraper | Scraping Stripe via Greenhouse …
+2026-03-15 21:22:57 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 528 jobs for Stripe
+2026-03-15 21:22:57 | INFO     | __main__ |   → 528 raw jobs fetched
+2026-03-15 21:22:57 | INFO     | __main__ | [46/50] Scraping: Superhuman
+2026-03-15 21:22:57 | INFO     | job_seek.adapters.scraper | Scraping Superhuman via Greenhouse …
+2026-03-15 21:22:57 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 69 jobs for Superhuman
+2026-03-15 21:22:57 | INFO     | __main__ |   → 69 raw jobs fetched
+2026-03-15 21:22:57 | INFO     | __main__ | [47/50] Scraping: Vercel
+2026-03-15 21:22:57 | INFO     | job_seek.adapters.scraper | Scraping Vercel via Greenhouse …
+2026-03-15 21:22:57 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 79 jobs for Vercel
+2026-03-15 21:22:57 | INFO     | __main__ |   → 79 raw jobs fetched
+2026-03-15 21:22:57 | INFO     | __main__ | [48/50] Scraping: Wealthfront
+2026-03-15 21:22:57 | INFO     | job_seek.adapters.scraper | Scraping Wealthfront via Lever …
+2026-03-15 21:22:58 | INFO     | job_seek.adapters.scraper | Lever: scraped 18 jobs for Wealthfront
+2026-03-15 21:22:58 | INFO     | __main__ |   → 18 raw jobs fetched
+2026-03-15 21:22:58 | INFO     | __main__ | [49/50] Scraping: Workday
+2026-03-15 21:22:58 | INFO     | job_seek.adapters.scraper | Scraping Workday via Workday …
+2026-03-15 21:22:59 | ERROR    | job_seek.adapters.scraper | Workday API error for Workday (page 0): 422 Client Error: Unprocessable Entity for url: https://workday.wd5.myworkdayjobs.com/wday/cxs/en-US/Workday/jobs
+2026-03-15 21:22:59 | INFO     | job_seek.adapters.scraper | Workday: scraped 0 jobs for Workday
+2026-03-15 21:22:59 | INFO     | __main__ |   → 0 raw jobs fetched
+2026-03-15 21:22:59 | INFO     | __main__ | [50/50] Scraping: Zscaler
+2026-03-15 21:22:59 | INFO     | job_seek.adapters.scraper | Scraping Zscaler via Greenhouse …
+2026-03-15 21:22:59 | INFO     | job_seek.adapters.scraper | Greenhouse: scraped 292 jobs for Zscaler
+2026-03-15 21:22:59 | INFO     | __main__ |   → 292 raw jobs fetched
+2026-03-15 21:22:59 | INFO     | __main__ | Total raw jobs scraped: 7133
+2026-03-15 21:22:59 | INFO     | __main__ | Normalising records …
+2026-03-15 21:22:59 | INFO     | __main__ | Normalisation complete: 7133 records
+2026-03-15 21:22:59 | INFO     | __main__ | Deduplicating …
+2026-03-15 21:23:00 | INFO     | job_seek.utils.deduplication | Deduplication: no duplicates found (7133 records)
+2026-03-15 21:23:00 | INFO     | job_seek.exporters.csv_xlsx | CSV written: data\raw_jobs.csv  (7133 rows)
+2026-03-15 21:23:00 | INFO     | __main__ | Filtering with keyword rules …
+2026-03-15 21:23:02 | INFO     | job_seek.filters.keyword_filter | Filtering complete: 1533 kept / 5600 rejected (threshold=70)
+2026-03-15 21:23:02 | INFO     | job_seek.exporters.csv_xlsx | CSV written: data\raw_jobs.csv  (7133 rows)
+2026-03-15 21:23:02 | INFO     | job_seek.exporters.csv_xlsx | CSV written: data\filtered_cs_jobs.csv  (1533 rows)
+2026-03-15 21:23:04 | INFO     | job_seek.exporters.csv_xlsx | XLSX written: data\filtered_cs_jobs.xlsx  (1533 rows + summary sheet)
+2026-03-15 21:23:04 | INFO     | job_seek.exporters.csv_xlsx | Export summary — raw: 7133 rows | filtered: 1533 rows | output dir: C:\Users\hetp2\Desktop\projects\job-seek\job-seek\data
+2026-03-15 21:23:04 | INFO     | __main__ | 
+2026-03-15 21:23:04 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-15 21:23:04 | INFO     | __main__ | PIPELINE SUMMARY
+2026-03-15 21:23:04 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-15 21:23:04 | INFO     | __main__ |   Total unique jobs scraped : 7133
+2026-03-15 21:23:04 | INFO     | __main__ |   Jobs kept (CS/IT roles)   : 1533
+2026-03-15 21:23:04 | INFO     | __main__ |   Jobs rejected             : 5600
+2026-03-15 21:23:04 | INFO     | __main__ |   Elapsed time              : 47.5 s
+2026-03-15 21:23:04 | INFO     | __main__ | 
+2026-03-15 21:23:04 | INFO     | __main__ |   Top categories:
+2026-03-15 21:23:04 | INFO     | __main__ |     Software Engineering                852
+2026-03-15 21:23:04 | INFO     | __main__ |     Data Science / ML                   175
+2026-03-15 21:23:04 | INFO     | __main__ |     QA / Test Automation                76
+2026-03-15 21:23:04 | INFO     | __main__ |     Cybersecurity                       70
+2026-03-15 21:23:04 | INFO     | __main__ |     Backend Engineering                 52
+2026-03-15 21:23:04 | INFO     | __main__ |     Database / BI                       51
+2026-03-15 21:23:04 | INFO     | __main__ |     Systems Engineering                 50
+2026-03-15 21:23:04 | INFO     | __main__ |     SRE                                 41
+2026-03-15 21:23:04 | INFO     | __main__ |     Full Stack Development              38
+2026-03-15 21:23:04 | INFO     | __main__ |     Frontend Engineering                26
+2026-03-15 21:23:04 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-03-15 21:23:04 | INFO     | __main__ | Output files:
+2026-03-15 21:23:04 | INFO     | __main__ |   data/raw_jobs.csv
+2026-03-15 21:23:04 | INFO     | __main__ |   data/filtered_cs_jobs.csv
+2026-03-15 21:23:04 | INFO     | __main__ |   data/filtered_cs_jobs.xlsx
+2026-03-15 21:23:04 | INFO     | __main__ | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
